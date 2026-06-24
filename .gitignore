@@ -10,3 +10,14 @@
 /.clang-tidy
 **/.test
 /.appanalyzer
+
+# Python backend
+backend/.env
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.venv/
+backend/venv/
+backend/data/images/
+backend/data/crawled_artifacts.json
+backend/data/cultural_relics.ttl
+*.pyc
